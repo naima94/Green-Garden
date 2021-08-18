@@ -587,7 +587,8 @@ input {
 }
 
 .place-content,
-.place-title {
+.place-title,
+.place-button .ar {
     color: var(--white-color);
 }
 
