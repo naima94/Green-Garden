@@ -294,12 +294,13 @@ input {
 }
 
 /* ================== HOME================== */
-.home-backgroung {
-    background-color: #000000;
-    opacity: 0.6;
+.home {
+    background: rgba(0, 0, 0, 0.5) url(img/home1.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
 }
 
-.home-img {
+/*.home-img {
     position: absolute;
     top: 0;
     left: 0;
@@ -307,7 +308,7 @@ input {
     height: 100vh;
     object-fit: cover;
     object-position: 83%;
-}
+}*/
 
 .home-container {
     position: relative;
