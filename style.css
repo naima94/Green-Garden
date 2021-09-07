@@ -351,6 +351,7 @@ input {
     background-color: var(--frist-color);
     display: flex;
     padding: 1.5rem 1rem;
+    border-radius: 1rem;
     align-items: center;
     column-gap: .5rem;
     position: absolute;
@@ -372,6 +373,7 @@ input {
 
 .home-info-overlay {
     overflow: var(--img-hidden);
+    border-radius: 1rem;
 }
 
 .home-info-img {
@@ -389,6 +391,7 @@ input {
     background-color: var(--frist-color);
     color: var(--white-color);
     padding: 1rem 2rem;
+    border-radius: 1rem;
     font-weight: var(--font-semi-bold);
     transition: .3s;
 }
@@ -434,6 +437,7 @@ input {
 
 .about-img-overlay {
     overflow: var(--img-hidden);
+    border-radius: 1rem;
 }
 
 .about-img-one {
@@ -459,6 +463,7 @@ input {
     position: relative;
     width: 1200px;
     overflow: var(--img-hidden);
+    border-radius: 1rem;
 }
 
 .discover-data {
@@ -548,6 +553,7 @@ input {
 
 .experience-overlay {
     overflow: var(--img-hidden);
+    border-radius: 1rem;
 }
 
 /* ================== Video================== */
@@ -566,7 +572,7 @@ input {
 
 .video-button {
     position: absolute;
-    right: 1rem;
+    right: 2rem;
     bottom: -1rem;
     padding: 1rem 1.5rem;
 }
@@ -590,6 +596,7 @@ input {
 .place-card {
     position: relative;
     overflow: var(--img-hidden);
+    border-radius: 1rem;
 }
 
 .place-content,
@@ -645,6 +652,7 @@ input {
     bottom: 0;
     right: 0;
     padding: .75rem 1rem;
+    border-radius: 1rem 0 1rem 0;
 }
 
 .place-img {
@@ -662,6 +670,10 @@ input {
     padding: 2.5rem 0;
 }
 
+.subscribe-container{
+    border-radius: 1rem;
+}
+
 .subscribe-title,
 .subscribe-description {
     color: var(--white-color);
@@ -677,6 +689,7 @@ input {
     padding: .5rem;
     display: flex;
     justify-content: space-between;
+    border-radius: 1rem;
 }
 
 .subscribe-input {
@@ -783,6 +796,7 @@ input {
     background-color: var(--frist-color);
     padding: .5rem;
     display: flex;
+    border-radius: .7rem;
     opacity: .9;
     z-index: var(--z-tooltip);
     transition: .4s;
